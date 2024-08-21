@@ -22,6 +22,7 @@ public:
         VACUUM,
         NUMBER,
         BUTTON
+        TEXT
     };
 
 private:

@@ -29,6 +29,7 @@ HAMqttDevice::HAMqttDevice(
     case DeviceType::NUMBER:
     case DeviceType::SWITCH:
     case DeviceType::BUTTON:
+    case DeviceType::TEXT:
         enableCommandTopic();
     default:
         break;
